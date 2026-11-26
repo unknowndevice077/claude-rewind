@@ -13,14 +13,14 @@ But rewind doesn't track files changed by shell commands (`rm`, `mv`, `sed -i`..
 ## Install
 
 ```bash
-git clone https://github.com/unknowndevice077/rewind ~/.claude/skills-src/rewind
+git clone https://github.com/unknowndevice077/claude-rewind ~/.claude/skills-src/rewind
 cp -r ~/.claude/skills-src/rewind/skills/rewind ~/.claude/skills/
 ```
 
 On Windows (PowerShell):
 
 ```powershell
-git clone https://github.com/unknowndevice077/rewind $HOME\.claude\skills-src\rewind
+git clone https://github.com/unknowndevice077/claude-rewind $HOME\.claude\skills-src\rewind
 Copy-Item -Recurse $HOME\.claude\skills-src\rewind\skills\rewind $HOME\.claude\skills\
 ```
 
